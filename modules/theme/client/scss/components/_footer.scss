@@ -1,0 +1,15 @@
+@import "../includes/variables";
+
+#footer{
+  position:absolute;
+  bottom:0px;
+  text-align: center;
+  width: 100%;
+  background-color: $appcha-header-bg-color;
+  border-top: 1px solid $appcha-nav-border-color;
+  p {
+    margin: 15px;
+  }
+
+
+}

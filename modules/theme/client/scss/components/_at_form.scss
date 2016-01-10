@@ -1,0 +1,76 @@
+@import "../includes/variables";
+@import "button";
+
+.at-form{
+  box-shadow: 2px 2px 45px darken($appcha-header-bg-color, 25%);
+  background-color: $appcha-content-bg-color;
+  border-radius: 1px;
+  border: 1px solid $appcha-nav-border-color;
+  margin-top: 10em;
+  .at-title{
+    background-color: $appcha-header-bg-color;
+    border-bottom: 1px solid $appcha-nav-border-color;
+    margin: -15px -15px 30px;
+    text-transform: uppercase;
+    h3{
+      padding:15px;
+      margin:0px;
+    }
+  }
+  .at-sep{
+    margin: 30px 0;
+    color: $appcha-nav-border-color;
+    &:before, &:after{
+      border-color: $appcha-nav-border-color;
+    }
+  }
+  p{
+    text-align: center;
+  }
+  button, button.at-social-btn {
+    width: 100%
+  }
+  //button, button.at-social-btn{
+  //  border: 1px solid rgba(0, 0, 0, 0.4);
+  //  width: 100%;
+  //  text-align: center;
+  //  display: inline-block;
+  //  color: #fff;
+  //  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.07) inset, 0 1px 0 rgba(255, 255, 255, 0.07);
+  //  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+  //  background: transparent linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.09)) !important;
+  //  &:hover, &:active, &:active:hover, &:visited, &:focus{
+  //    outline: none;
+  //    border: 1px solid rgba(0, 0, 0, 0.4);
+  //    width: 100%;
+  //    text-align: center;
+  //    display: inline-block;
+  //    color: #fff;
+  //    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.07) inset, 0 1px 0 rgba(255, 255, 255, 0.07);
+  //    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+  //    background: transparent linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.15)) !important;
+  //  }
+  //  &:active, &:active:hover{
+  //    background: transparent linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.01)) !important;
+  //  }
+  //
+  //}
+  #at-btn{
+    margin-top: 0px;
+  }
+  #at-google{
+    @include appcha-btn();
+    .fa{
+      color: #db5a3c;
+
+    }
+  }
+  .at-pwd-link{
+    margin: 20px;
+  }
+
+  .at-signin-link, .at-signup-link{
+    margin: 20px 20px 0px;
+  }
+
+}

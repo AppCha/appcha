@@ -1,0 +1,24 @@
+@import "../includes/variables";
+
+
+nav.navbar-default {
+  background-color: $appcha-nav-bg-color;
+  border-color: $appcha-nav-border-color;
+
+  .navbar-brand{
+    line-height: $appcha-nav-height;
+    height: $appcha-nav-height;
+    padding-top: 0;
+  }
+  .navbar-nav {
+    line-height: $appcha-nav-height;
+    height: $appcha-nav-height;
+    padding-top: 0;
+    li a {
+      line-height: $appcha-nav-height;
+      height: $appcha-nav-height;
+      padding-top: 0;
+    }
+
+  }
+}

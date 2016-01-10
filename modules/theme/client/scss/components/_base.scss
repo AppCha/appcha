@@ -1,0 +1,29 @@
+@import "../includes/variables";
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background-color: $appcha-content-bg-color;
+  color: $appcha-content-color;
+
+}
+
+a {
+  color: $appcha-link-color;
+  &:hover {
+    color: lighten($appcha-link-color, 10%);
+  }
+}
+
+input, button {
+  border-radius: 3px!important;
+
+}
+input[type='email'],
+input[type='text'],
+input[type='password'] {
+
+}
