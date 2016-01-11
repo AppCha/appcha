@@ -1,7 +1,8 @@
 <template name="masterLayout">
-  <div id="content">
+  <div id="content" class="main-layout">
     {{> Template.dynamic template=nav}}
     {{> Template.dynamic template=main}}
+    {{> Template.dynamic template=footer}}
   </div>
-  {{> Template.dynamic template=footer}}
+
 </template>

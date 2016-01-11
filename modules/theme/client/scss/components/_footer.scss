@@ -1,15 +1,27 @@
 @import "../includes/variables";
 
-#footer{
-  position:absolute;
-  bottom:0px;
-  text-align: center;
-  width: 100%;
-  background-color: $appcha-header-bg-color;
-  border-top: 1px solid $appcha-nav-border-color;
-  p {
-    margin: 15px;
+.main-layout {
+  #footer {
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+    background-color: $appcha-header-bg-color;
+    border-top: 1px solid $appcha-nav-border-color;
+    p {
+      color: $appcha-content-color;
+      margin: 15px;
+    }
   }
+}
 
+.login-layout {
+  #footer {
+  text-align: center;;
+    p {
+      color: darken($appcha-content-color, 35%);
+      margin-top: 30px;
+    }
 
+  }
 }

@@ -2,15 +2,19 @@
 @import "button";
 
 .at-form{
-  box-shadow: 2px 2px 45px darken($appcha-header-bg-color, 25%);
+  color: $appcha-content-color;
+
+  //box-shadow: 2px 2px 100px darken($appcha-header-bg-color, 25%);
+  box-shadow: 0px 0px 0px 7px rgba(40, 41, 41, 0.34);
   background-color: $appcha-content-bg-color;
-  border-radius: 1px;
+  border-radius: 4px;
   border: 1px solid $appcha-nav-border-color;
   margin-top: 10em;
   .at-title{
+    text-shadow: 0 1px 0 $appcha-nav-border-color;;
     background-color: $appcha-header-bg-color;
     border-bottom: 1px solid $appcha-nav-border-color;
-    margin: -15px -15px 30px;
+    margin: -15px -15px 15px;
     text-transform: uppercase;
     h3{
       padding:15px;
@@ -19,17 +23,28 @@
   }
   .at-sep{
     margin: 30px 0;
-    color: $appcha-nav-border-color;
-    &:before, &:after{
-      border-color: $appcha-nav-border-color;
+    color: lighten($appcha-nav-border-color,0%);
+
+    &:before{
+      border-color: lighten($appcha-nav-border-color,10%);
+      left: -75%;
+    }
+    &:after{
+      border-color: lighten($appcha-nav-border-color,10%);
+      right: -75%;
     }
   }
   p{
-    text-align: center;
+    //text-align: center;
   }
-  button, button.at-social-btn {
-    width: 100%
+   button.at-social-btn {
+    width: 100%;
+    text-align: left;
+     .fa{
+       margin-right: 20px;
+     }
   }
+
   //button, button.at-social-btn{
   //  border: 1px solid rgba(0, 0, 0, 0.4);
   //  width: 100%;
@@ -65,12 +80,22 @@
 
     }
   }
+
+  #at-github{
+    @include appcha-btn();
+    .fa{
+      color: #000;
+
+    }
+  }
+
+
   .at-pwd-link{
-    margin: 20px;
+    margin: 20px 2px;
   }
 
   .at-signin-link, .at-signup-link{
-    margin: 20px 20px 0px;
+    margin: 20px 2px 0px;
   }
 
 }

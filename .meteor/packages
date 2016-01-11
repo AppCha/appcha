@@ -22,6 +22,7 @@ check
 accounts-password
 useraccounts:bootstrap
 accounts-google
+accounts-github
 service-configuration
 
 kadira:flow-router

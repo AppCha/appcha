@@ -8,7 +8,7 @@
 //
 // Restyle and baseline non-control form elements.
 
-$input-bg: rgba(255,255,255, 0.05);
+$input-bg: rgba(255,255,255, 1);
 
 fieldset {
   padding: 0;
@@ -121,10 +121,10 @@ output {
   padding: $padding-base-vertical $padding-base-horizontal;
   font-size: $font-size-base;
   line-height: $line-height-base;
-  color: #fff;
+  color: #000;
   background-color: $input-bg;
   background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
-  border:1px solid rgba(0, 0, 0, 0.4);
+  border:1px solid rgba(0, 0, 0, 0.95);
   //border-radius: $input-border-radius; // Note: This has no effect on <select>s in some browsers, due to the limited stylability of <select>s in CSS.
   //@include box-shadow(inset 0 1px 1px rgba(0,0,0,.075));
   @include transition(border-color ease-in-out .15s, box-shadow ease-in-out .15s);
@@ -135,7 +135,7 @@ output {
     outline: none;
 
   }
-  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.07) , 0 1px 0 rgba(255, 255, 255, 0.07) inset;
+  //box-shadow: 0 1px 0 rgba(255, 255, 255, 0.07) , 0 1px 0 rgba(255, 255, 255, 0.07) inset;
   // Placeholder
   @include placeholder;
 
