@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f75699ce-588b-41c7-8189-376ba459cc12" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" afterPath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/dashboard/client/views/dashboard.html" afterPath="$PROJECT_DIR$/modules/dashboard/client/views/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/dashboard/client/views/sub_nav.html" afterPath="$PROJECT_DIR$/modules/dashboard/client/views/sub_nav.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/dashboard/client/views/sub_nav.js" afterPath="$PROJECT_DIR$/modules/dashboard/client/views/sub_nav.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/theme/client/scss/pages/dashboard.scss" afterPath="$PROJECT_DIR$/modules/theme/client/scss/pages/dashboard.scss" />
-    </list>
+    <list default="true" id="f75699ce-588b-41c7-8189-376ba459cc12" name="Default" comment="" />
     <ignored path="bootstrap-flow-router.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
