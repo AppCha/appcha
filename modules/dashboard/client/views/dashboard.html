@@ -3,7 +3,7 @@
     <div class="row">
       {{#loading ready=isReady}}
         {{#if empty projects }}
-         NONE
+         {{> noProjects }}
         {{else}}
           {{#each projects }}
             {{> dashboard_project_card data=this }}

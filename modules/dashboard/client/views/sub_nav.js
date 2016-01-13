@@ -8,3 +8,10 @@ Template.dashboard_subnav.events({
     DahboardVariables.set('project_filter', $(e.target).data().param);
   }
 })
+
+
+Template.dashboard_subnav.helpers({
+  noProjects() {
+    return Projects.find({}).count() !== 0
+  }
+})
