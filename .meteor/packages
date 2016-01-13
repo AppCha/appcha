@@ -18,6 +18,7 @@ ejson
 spacebars
 check
 ecmascript
+reactive-dict
 
 accounts-password
 #useraccounts:bootstrap

@@ -2,34 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f75699ce-588b-41c7-8189-376ba459cc12" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/dashboard/client/views/dashboard.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/dashboard/client/dashboard.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/theme/client/scss/components/_button.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/theme/client/scss/mixins/_button.scss" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/config/accounts_t9n.js" afterPath="$PROJECT_DIR$/lib/client/config/accounts_t9n.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/config/at_config.js" afterPath="$PROJECT_DIR$/lib/client/config/at_config.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/config/router.js" afterPath="$PROJECT_DIR$/lib/client/config/router.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" afterPath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/packages" afterPath="$PROJECT_DIR$/.meteor/packages" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/versions" afterPath="$PROJECT_DIR$/.meteor/versions" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/collections/projects/projects.js" afterPath="$PROJECT_DIR$/collections/projects/projects.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/collections/users.js" afterPath="$PROJECT_DIR$/collections/users.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/server/config/accounts.js" afterPath="$PROJECT_DIR$/lib/server/config/accounts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/dashboard/client/routes.js" afterPath="$PROJECT_DIR$/modules/dashboard/client/routes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/private/client/routes.js" afterPath="$PROJECT_DIR$/modules/private/client/routes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/theme/client/scss/components/_at_form.scss" afterPath="$PROJECT_DIR$/modules/theme/client/scss/components/_at_form.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/theme/client/scss/components/_base.scss" afterPath="$PROJECT_DIR$/modules/theme/client/scss/components/_base.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/theme/client/scss/components/_footer.scss" afterPath="$PROJECT_DIR$/modules/theme/client/scss/components/_footer.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/theme/client/scss/components/_nav.scss" afterPath="$PROJECT_DIR$/modules/theme/client/scss/components/_nav.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/theme/client/scss/includes/_variables.scss" afterPath="$PROJECT_DIR$/modules/theme/client/scss/includes/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/theme/client/scss/main.scss" afterPath="$PROJECT_DIR$/modules/theme/client/scss/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/theme/client/views/footer.html" afterPath="$PROJECT_DIR$/modules/theme/client/views/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/theme/client/views/login_template.html" afterPath="$PROJECT_DIR$/modules/theme/client/views/login_template.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/theme/client/views/nav.html" afterPath="$PROJECT_DIR$/modules/theme/client/views/nav.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/client/config/at_config.js" afterPath="$PROJECT_DIR$/lib/client/config/at_config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/client/config/template_helpers.js" afterPath="$PROJECT_DIR$/lib/client/config/template_helpers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/dashboard/client/views/dashboard.html" afterPath="$PROJECT_DIR$/modules/dashboard/client/views/dashboard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/dashboard/client/views/dashboard.js" afterPath="$PROJECT_DIR$/modules/dashboard/client/views/dashboard.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/dashboard/client/views/sub_nav.html" afterPath="$PROJECT_DIR$/modules/dashboard/client/views/sub_nav.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/dashboard/client/views/sub_nav.js" afterPath="$PROJECT_DIR$/modules/dashboard/client/views/sub_nav.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/dashboard/server/pubilcations.js" afterPath="$PROJECT_DIR$/modules/dashboard/server/pubilcations.js" />
     </list>
     <ignored path="bootstrap-flow-router.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,63 +30,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="packages" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.meteor/packages">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.388889">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="dashboard.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/dashboard/client/views/dashboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.071429">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="project_card.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/modules/dashboard/client/views/project_card.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24031621">
-              <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="organisations.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/collections/organisations.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/collections/users.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="seed.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/collections/projects/server/seed.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="loading.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/client/block_helpers/loading.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.178572">
-              <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+            <state vertical-scroll-proportion="-10.857142">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -116,17 +54,7 @@
         <entry file="file://$PROJECT_DIR$/modules/dashboard/server/pubilcations.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="projects.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/collections/projects/projects.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -135,8 +63,58 @@
       <file leaf-file-name="dashboard.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/dashboard/client/views/dashboard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.444445">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sub_nav.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/dashboard/client/views/sub_nav.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vars.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/dashboard/client/vars.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.029389018">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="project_card.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/dashboard/client/views/project_card.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.857142">
+              <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sub_nav.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/dashboard/client/views/sub_nav.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.071429">
+              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/dashboard/client/routes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -146,7 +124,7 @@
         <entry file="file://$PROJECT_DIR$/lib/client/config/template_helpers.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -160,7 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/modules/theme/client/scss/_variables.scss" />
         <option value="$PROJECT_DIR$/modules/dashboard/client/home.html" />
         <option value="$PROJECT_DIR$/modules/theme/client/scss/mixins/_button.scss" />
         <option value="$PROJECT_DIR$/modules/theme/client/scss/components/_button.scss" />
@@ -173,12 +150,10 @@
         <option value="$PROJECT_DIR$/modules/theme/client/views/login_template.html" />
         <option value="$PROJECT_DIR$/packages/useraccounts:materialize/lib/at_pwd_form.html" />
         <option value="$PROJECT_DIR$/lib/config/template_helpers.js" />
-        <option value="$PROJECT_DIR$/.meteor/packages" />
         <option value="$PROJECT_DIR$/lib/server/config/accounts.js" />
         <option value="$PROJECT_DIR$/packages/useraccounts:materialize/lib/full_page_at_form.html" />
         <option value="$PROJECT_DIR$/modules/theme/client/scss/components/_at_form.scss" />
         <option value="$PROJECT_DIR$/packages/useraccounts:materialize/lib/at_signup_link.html" />
-        <option value="$PROJECT_DIR$/lib/client/config/at_config.js" />
         <option value="$PROJECT_DIR$/packages/useraccounts:materialize/lib/at_signup_link.js" />
         <option value="$PROJECT_DIR$/packages/useraccounts:materialize/lib/at_social.html" />
         <option value="$PROJECT_DIR$/packages/useraccounts:materialize/lib/at_form.js" />
@@ -194,23 +169,26 @@
         <option value="$PROJECT_DIR$/modules/dashboard/client/dashboard.js" />
         <option value="$PROJECT_DIR$/modules/theme/client/scss/includes/_material_variables.scss" />
         <option value="$PROJECT_DIR$/modules/dashboard/client/routes.js" />
-        <option value="$PROJECT_DIR$/modules/dashboard/client/views/sub_nav.js" />
         <option value="$PROJECT_DIR$/lib/client/config/router.js" />
         <option value="$PROJECT_DIR$/modules/theme/client/views/footer.html" />
         <option value="$PROJECT_DIR$/modules/theme/client/scss/components/_base.scss" />
         <option value="$PROJECT_DIR$/modules/theme/client/views/nav.html" />
         <option value="$PROJECT_DIR$/modules/theme/client/scss/components/_footer.scss" />
-        <option value="$PROJECT_DIR$/modules/dashboard/client/views/sub_nav.html" />
         <option value="$PROJECT_DIR$/modules/theme/client/scss/pages/dashboard.scss" />
-        <option value="$PROJECT_DIR$/modules/dashboard/client/views/dashboard.js" />
-        <option value="$PROJECT_DIR$/lib/client/config/template_helpers.js" />
         <option value="$PROJECT_DIR$/lib/client/block_helpers/when_ready.html" />
-        <option value="$PROJECT_DIR$/modules/dashboard/client/views/dashboard.html" />
         <option value="$PROJECT_DIR$/lib/client/block_helpers/loading.html" />
         <option value="$PROJECT_DIR$/collections/users.js" />
         <option value="$PROJECT_DIR$/collections/projects/projects.js" />
-        <option value="$PROJECT_DIR$/modules/dashboard/server/pubilcations.js" />
         <option value="$PROJECT_DIR$/modules/dashboard/client/views/project_card.html" />
+        <option value="$PROJECT_DIR$/lib/client/config/at_config.js" />
+        <option value="$PROJECT_DIR$/lib/client/config/template_helpers.js" />
+        <option value="$PROJECT_DIR$/modules/dashboard/client/views/dashboard.html" />
+        <option value="$PROJECT_DIR$/modules/dashboard/server/pubilcations.js" />
+        <option value="$PROJECT_DIR$/.meteor/packages" />
+        <option value="$PROJECT_DIR$/modules/dashboard/client/vars.js" />
+        <option value="$PROJECT_DIR$/modules/dashboard/client/views/sub_nav.html" />
+        <option value="$PROJECT_DIR$/modules/dashboard/client/views/sub_nav.js" />
+        <option value="$PROJECT_DIR$/modules/dashboard/client/views/dashboard.js" />
       </list>
     </option>
   </component>
@@ -582,10 +560,10 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329296" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -612,14 +590,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/packages/useraccounts:materialize/lib/full_page_at_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.285715">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/packages/useraccounts:materialize/lib/at_pwd_form_btn.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -680,14 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/client/config/at_config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44289044">
-          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -812,22 +774,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/dashboard/client/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/dashboard/client/views/sub_nav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/theme/client/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-33.92857">
@@ -899,14 +845,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/dashboard/client/views/sub_nav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.75">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/theme/client/scss/includes/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-25.821428">
@@ -923,34 +861,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/dashboard/client/views/dashboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.444445">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/client/config/template_helpers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/client/block_helpers/loading.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.178572">
           <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.meteor/packages">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1650869">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -989,26 +903,90 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/client/config/at_config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/client/config/template_helpers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/modules/dashboard/server/pubilcations.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/dashboard/client/views/dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.071429">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state vertical-scroll-proportion="-10.857142">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/dashboard/client/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.meteor/packages">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.388889">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/dashboard/client/views/project_card.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24031621">
+        <state vertical-scroll-proportion="-10.857142">
           <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/dashboard/client/views/sub_nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.071429">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/dashboard/client/views/sub_nav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/dashboard/client/views/dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/dashboard/client/vars.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.029389018">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>

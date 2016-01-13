@@ -2,9 +2,13 @@
   <div class="dashboard">
     <div class="row">
       {{#loading ready=isReady}}
-        {{#each projects }}
-          {{> dashboard_project_card data=this }}
-        {{/each}}
+        {{#if empty projects }}
+         NONE
+        {{else}}
+          {{#each projects }}
+            {{> dashboard_project_card data=this }}
+          {{/each}}
+        {{/if}}
       {{/loading}}
     </div>
 

@@ -3,3 +3,8 @@ Template.dashboard_subnav.onRendered(function(){
 })
 
 
+Template.dashboard_subnav.events({
+  "click .tab a": (e, t) => {
+    DahboardVariables.set('project_filter', $(e.target).data().param);
+  }
+})
