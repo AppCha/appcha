@@ -1,0 +1,12 @@
+<template name="dashboard">
+  <div class="dashboard">
+    <div class="row">
+      {{#loading ready=isReady}}
+        {{#each projects }}
+          {{> dashboard_project_card data=this }}
+        {{/each}}
+      {{/loading}}
+    </div>
+
+  </div>
+</template>

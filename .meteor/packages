@@ -17,12 +17,16 @@ random
 ejson
 spacebars
 check
-
+ecmascript
 
 accounts-password
-useraccounts:bootstrap
+#useraccounts:bootstrap
+useraccounts:materialize
 accounts-google
 accounts-github
+accounts-facebook
+accounts-twitter
+pauli:accounts-linkedin
 service-configuration
 
 kadira:flow-router
@@ -32,7 +36,9 @@ arillo:flow-router-helpers
 zimme:active-route
 
 fourseven:scss
-reywood:bootstrap3-sass
+#reywood:bootstrap3-sass
+#fezvrasta:bootstrap-material-design
+poetic:materialize-scss
 fortawesome:fontawesome
 
 jagi:astronomy

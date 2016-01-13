@@ -7,6 +7,7 @@ Project = new Astro.Class({
   fields: {
     'name': 'string',
     'status': 'string',
+    'owner': 'string',
     'users': {
       type: 'array'
     },

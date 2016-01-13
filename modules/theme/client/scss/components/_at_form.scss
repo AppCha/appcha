@@ -1,101 +1,73 @@
-@import "../includes/variables";
-@import "button";
+.auth-card-row {
+  max-width: 1300px;
+  min-width: 1100px;
+  .auth-card {
+    margin-top: 10em;
+    margin-right: -15px;
+    margin-left: -15px;
+    background: #fff url("/imgs/masthead.png") no-repeat -1000px -20px;
+    .at-hero {
+      color: #fff;
+      text-align: center;
+      .logo {
+        margin-top: 40%;
+        .fa {
+          font-size: 80px;
+        }
+      }
+      h1 {
+        font-size: 40px;
+        text-shadow: 0px 1px 15px #000;
+        letter-spacing: 2px;
+        font-weight: 100;
+      }
+      h2 {
+        font-size: 22px;
+        text-shadow: 0px 1px 15px #000;
+        letter-spacing: 2px;
+        font-weight: 100;
+      }
+      .meta {
+        position: absolute;
+        bottom: 30px;
+        left: 20px;
+        font-weight: 100;
+        color: #f6f6f6;
+        font-size: 0.75em;
+      }
+    }
+    .at-form {
+      min-height: 500px;
+      margin: 0 -11px 0px -11px;
+      background-color: white;
+      padding: 75px;
+      //color: #000;
 
-.at-form{
-  color: $appcha-content-color;
-
-  //box-shadow: 2px 2px 100px darken($appcha-header-bg-color, 25%);
-  box-shadow: 0px 0px 0px 7px rgba(40, 41, 41, 0.34);
-  background-color: $appcha-content-bg-color;
-  border-radius: 4px;
-  border: 1px solid $appcha-nav-border-color;
-  margin-top: 10em;
-  .at-title{
-    text-shadow: 0 1px 0 $appcha-nav-border-color;;
-    background-color: $appcha-header-bg-color;
-    border-bottom: 1px solid $appcha-nav-border-color;
-    margin: -15px -15px 15px;
-    text-transform: uppercase;
-    h3{
-      padding:15px;
-      margin:0px;
+      input {
+        color: #000;
+      }
+      p {
+        color: #aaa;
+        text-align: center;
+      }
+      .input-field {
+        span.fa {
+          position: absolute;
+          right: 15px;
+          bottom: 30px;
+          &.fa-check {
+            color: #4CAF50;
+          }
+        }
+      }
+      .at-pwd-form {
+        button {
+          width: 100%;
+        }
+      }
+      .at-social-btn {
+        margin: 10px;
+      }
     }
   }
-  .at-sep{
-    margin: 30px 0;
-    color: lighten($appcha-nav-border-color,0%);
-
-    &:before{
-      border-color: lighten($appcha-nav-border-color,10%);
-      left: -75%;
-    }
-    &:after{
-      border-color: lighten($appcha-nav-border-color,10%);
-      right: -75%;
-    }
-  }
-  p{
-    //text-align: center;
-  }
-   button.at-social-btn {
-    width: 100%;
-    text-align: left;
-     .fa{
-       margin-right: 20px;
-     }
-  }
-
-  //button, button.at-social-btn{
-  //  border: 1px solid rgba(0, 0, 0, 0.4);
-  //  width: 100%;
-  //  text-align: center;
-  //  display: inline-block;
-  //  color: #fff;
-  //  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.07) inset, 0 1px 0 rgba(255, 255, 255, 0.07);
-  //  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
-  //  background: transparent linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.09)) !important;
-  //  &:hover, &:active, &:active:hover, &:visited, &:focus{
-  //    outline: none;
-  //    border: 1px solid rgba(0, 0, 0, 0.4);
-  //    width: 100%;
-  //    text-align: center;
-  //    display: inline-block;
-  //    color: #fff;
-  //    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.07) inset, 0 1px 0 rgba(255, 255, 255, 0.07);
-  //    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
-  //    background: transparent linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.15)) !important;
-  //  }
-  //  &:active, &:active:hover{
-  //    background: transparent linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.01)) !important;
-  //  }
-  //
-  //}
-  #at-btn{
-    margin-top: 0px;
-  }
-  #at-google{
-    @include appcha-btn();
-    .fa{
-      color: #db5a3c;
-
-    }
-  }
-
-  #at-github{
-    @include appcha-btn();
-    .fa{
-      color: #000;
-
-    }
-  }
-
-
-  .at-pwd-link{
-    margin: 20px 2px;
-  }
-
-  .at-signin-link, .at-signup-link{
-    margin: 20px 2px 0px;
-  }
-
 }

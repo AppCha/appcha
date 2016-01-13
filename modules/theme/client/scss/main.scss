@@ -1,70 +1,53 @@
-$icon-font-path: '/packages/reywood_bootstrap3-sass/assets/fonts/bootstrap/' !default;
+@charset "UTF-8";
 
-@function font-url($url) {
-  @return url('#{$url}');
-}
+// Mixins
+@import "{poetic:materialize-scss}/sass/components/prefixer";
+@import "{poetic:materialize-scss}/sass/components/mixins";
+@import "{poetic:materialize-scss}/sass/components/color";
 
-// Bootstrap Core variables and mixins
-@import "{reywood:bootstrap3-sass}/assets/stylesheets/bootstrap/variables";
-@import "{reywood:bootstrap3-sass}/assets/stylesheets/bootstrap/mixins";
+// Variables;
+//@import "{poetic:materialize-scss}/sass/components/variables";
+@import "includes/material_variables";
+// Reset
+@import "{poetic:materialize-scss}/sass/components/normalize";
 
-// Bootstrap Reset and dependencies
-@import "{reywood:bootstrap3-sass}/assets/stylesheets/bootstrap/normalize";
-@import "{reywood:bootstrap3-sass}/assets/stylesheets/bootstrap/print";
-@import "{reywood:bootstrap3-sass}/assets/stylesheets/bootstrap/glyphicons";
-
-// Bootstrap Core CSS
-@import "{reywood:bootstrap3-sass}/assets/stylesheets/bootstrap/scaffolding";
-@import "{reywood:bootstrap3-sass}/assets/stylesheets/bootstrap/type";
-@import "{reywood:bootstrap3-sass}/assets/stylesheets/bootstrap/code";
-@import "{reywood:bootstrap3-sass}/assets/stylesheets/bootstrap/grid";
-@import "{reywood:bootstrap3-sass}/assets/stylesheets/bootstrap/tables";
-//@import "{reywood:bootstrap3-sass}/assets/stylesheets/bootstrap/forms";
-//@import "{reywood:bootstrap3-sass}/assets/stylesheets/bootstrap/buttons";
-@import "components/forms";
-@import "components/button";
-
-// Bootstrap Components
-@import "{reywood:bootstrap3-sass}/assets/stylesheets/bootstrap/component-animations";
-@import "{reywood:bootstrap3-sass}/assets/stylesheets/bootstrap/dropdowns";
-@import "{reywood:bootstrap3-sass}/assets/stylesheets/bootstrap/button-groups";
-@import "{reywood:bootstrap3-sass}/assets/stylesheets/bootstrap/input-groups";
-@import "{reywood:bootstrap3-sass}/assets/stylesheets/bootstrap/navs";
-@import "{reywood:bootstrap3-sass}/assets/stylesheets/bootstrap/navbar";
-@import "{reywood:bootstrap3-sass}/assets/stylesheets/bootstrap/breadcrumbs";
-@import "{reywood:bootstrap3-sass}/assets/stylesheets/bootstrap/pagination";
-@import "{reywood:bootstrap3-sass}/assets/stylesheets/bootstrap/pager";
-@import "{reywood:bootstrap3-sass}/assets/stylesheets/bootstrap/labels";
-@import "{reywood:bootstrap3-sass}/assets/stylesheets/bootstrap/badges";
-@import "{reywood:bootstrap3-sass}/assets/stylesheets/bootstrap/jumbotron";
-@import "{reywood:bootstrap3-sass}/assets/stylesheets/bootstrap/thumbnails";
-@import "{reywood:bootstrap3-sass}/assets/stylesheets/bootstrap/alerts";
-@import "{reywood:bootstrap3-sass}/assets/stylesheets/bootstrap/progress-bars";
-@import "{reywood:bootstrap3-sass}/assets/stylesheets/bootstrap/media";
-@import "{reywood:bootstrap3-sass}/assets/stylesheets/bootstrap/list-group";
-@import "{reywood:bootstrap3-sass}/assets/stylesheets/bootstrap/panels";
-@import "{reywood:bootstrap3-sass}/assets/stylesheets/bootstrap/responsive-embed";
-@import "{reywood:bootstrap3-sass}/assets/stylesheets/bootstrap/wells";
-@import "{reywood:bootstrap3-sass}/assets/stylesheets/bootstrap/close";
-
-// Bootstrap Components w/ JavaScript
-@import "{reywood:bootstrap3-sass}/assets/stylesheets/bootstrap/modals";
-@import "{reywood:bootstrap3-sass}/assets/stylesheets/bootstrap/tooltip";
-@import "{reywood:bootstrap3-sass}/assets/stylesheets/bootstrap/popovers";
-@import "{reywood:bootstrap3-sass}/assets/stylesheets/bootstrap/carousel";
-
-// Bootstrap Utility classes
-@import "{reywood:bootstrap3-sass}/assets/stylesheets/bootstrap/utilities";
-@import "{reywood:bootstrap3-sass}/assets/stylesheets/bootstrap/responsive-utilities";
+// components
+@import "{poetic:materialize-scss}/sass/components/global";
+@import "{poetic:materialize-scss}/sass/components/material-icons.scss";
+@import "{poetic:materialize-scss}/sass/components/icons-material-design";
+@import "{poetic:materialize-scss}/sass/components/grid";
+@import "{poetic:materialize-scss}/sass/components/navbar";
+@import "{poetic:materialize-scss}/sass/components/roboto";
+@import "{poetic:materialize-scss}/sass/components/typography";
+@import "{poetic:materialize-scss}/sass/components/cards";
+@import "{poetic:materialize-scss}/sass/components/toast";
+@import "{poetic:materialize-scss}/sass/components/tabs";
+@import "{poetic:materialize-scss}/sass/components/tooltip";
+@import "{poetic:materialize-scss}/sass/components/buttons";
+@import "{poetic:materialize-scss}/sass/components/dropdown";
+@import "{poetic:materialize-scss}/sass/components/waves";
+@import "{poetic:materialize-scss}/sass/components/modal";
+@import "{poetic:materialize-scss}/sass/components/collapsible";
+@import "{poetic:materialize-scss}/sass/components/chips";
+@import "{poetic:materialize-scss}/sass/components/materialbox";
+@import "{poetic:materialize-scss}/sass/components/form";
+@import "{poetic:materialize-scss}/sass/components/table_of_contents";
+@import "{poetic:materialize-scss}/sass/components/sideNav";
+@import "{poetic:materialize-scss}/sass/components/preloader";
+@import "{poetic:materialize-scss}/sass/components/slider";
+@import "{poetic:materialize-scss}/sass/components/date_picker/default.scss";
+@import "{poetic:materialize-scss}/sass/components/date_picker/default.date.scss";
+@import "{poetic:materialize-scss}/sass/components/date_picker/default.time.scss";
 
 // AppCha Imports
-
 @import "includes/variables";
-
 
 @import "components/base";
 @import "components/nav";
 @import "components/footer";
 @import "components/at_form";
+@import "components/grid";
+
+@import "pages/dashboard";
 
 
