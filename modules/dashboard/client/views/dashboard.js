@@ -7,7 +7,7 @@ Template.dashboard.onCreated(function () {
 
   Tracker.autorun(()=> {
     let option = DahboardVariables.get('project_filter');
-    this.subscribe("dashboard_projects", option !== 'all')
+    this.subscribe("dashboard_projects", option || 'recent')
   })
 
 })
