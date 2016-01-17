@@ -21,7 +21,7 @@ Project = new Astro.Class({
   },
   validators: {
     name: [
-      Validators.required()
+      Validators.required(null, "What kind of project doesn't have a name? Please add one")
     ]
   },
   behaviors: {

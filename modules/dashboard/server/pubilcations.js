@@ -6,7 +6,8 @@ Meteor.publish("dashboard_projects", function(option) {
   if (option === 'recent'){
     options = {sort: {updatedAt: -1}, limit: 5}
   }else if (option === 'starred'){
-    options = {sort: {updatedAt: -1}, limit: 1}
+    options = {sort: {updatedAt: -1}, limit: 0}
+    criteria.owner = 'foo'
   }else{
     options = {sort: {updatedAt: -1}}
   }

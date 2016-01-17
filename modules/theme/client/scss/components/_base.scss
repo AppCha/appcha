@@ -1,5 +1,6 @@
 @import "../includes/variables";
 
+
 html {
   position: relative;
   min-height: 100%;
@@ -9,7 +10,7 @@ body {
   background-color: $appcha-header-bg-color;
   //color: $appcha-content-color;
   &.authenticated{
-    background-color: #EBEFF2;
+    background-color: $appcha-body-bg-color;
   }
 }
 

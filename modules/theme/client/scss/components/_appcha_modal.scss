@@ -1,0 +1,73 @@
+@import "../includes/variables";
+
+.appcha-modal {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: $appcha-header-bg-color;
+
+  .content {
+    border-radius: 2px;
+    margin: 10em auto;
+    background-color: #fff;
+    max-width: 1000px;
+    .error{
+      text-align: center;
+      background-color: $red-300;
+      padding:15px;
+      color:#fff;
+    }
+    .header {
+      border-bottom: 1px solid #eee;
+      padding: 15px;
+      background-color: $appcha-body-bg-color;
+      border-top-right-radius: 2px;
+      border-top-left-radius: 2px;
+      //margin: 0 -15px;
+      .close {
+        text-align: center;
+
+      }
+      h1 {
+        font-size: 20px;
+        margin: 0px;
+        font-weight: 400;
+
+      }
+    }
+    .body {
+      padding: 15px;
+
+    }
+    .footer {
+      border-top: 1px solid #eee;
+      padding: 15px;
+      .row {
+        margin-bottom: 0px;
+        .col {
+          padding: 0px;
+        }
+      }
+      p.notice {
+        color: #9e9e9e;
+        line-height: 36px;
+        position: relative;
+        color: $grey-500;
+        padding: 0;
+        padding-left: 30px;
+        margin: 0px;
+        font-style: italic;
+        .material-icons {
+          position: absolute;
+          left: 0px;
+          line-height: 36px;
+          //color: $red-300;
+          padding-right: 10px;
+          width: auto;
+        }
+      }
+    }
+  }
+}

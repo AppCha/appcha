@@ -8,9 +8,10 @@
       </ul>
     </div>
     <div class="col s4">
-        {{#if noProjects}}
-      <a class="btn-new-project btn-floating btn-large waves-effect waves-light red right"><i class="material-icons">add</i></a>
-        {{/if}}
+      {{#if noProjects}}
+        <a href="{{pathFor 'projects.new'}}"
+           class="btn-new-project btn-floating btn-large waves-effect waves-light red right"><i class="material-icons">add</i></a>
+      {{/if}}
 
     </div>
 

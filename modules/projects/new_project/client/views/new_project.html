@@ -1,0 +1,189 @@
+<template name="projects_new">
+  <div class="projects_new">
+    <div class="header clearfix">
+      <div class="right"><a class="js-close waves-effect"><i class="material-icons">close</i></a></div>
+      <h1>Start a new Project</h1>
+
+    </div>
+    {{#if project.get.hasValidationErrors }}
+      <div class="error">
+        Oh snap! Something went wrong, please check and try again.
+      </div>
+
+    {{/if}}
+    <div class="body">
+      <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s6">
+              <div class="row">
+                <div class="input-field col s12">
+                  <input value="" placeholder="Enter your App name here..." id="name" type="text"
+                         class="validate {{validateClass project 'name' }}">
+                  <label class="active" for="name">Project Name</label>
+                  <span class="red-text">{{validateMessage project 'name' }}</span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="project_description" placeholder="Enter your App description here..." type="text"
+                         class="validate"/>
+                  <label class="active" for="project_description">Project Description</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <label class="active">Compatible device types</label>
+
+                  <div class="switch">
+                    <label>
+
+                      <input checked type="checkbox">
+                      <span class="lever"></span>
+                      Create and App for <strong>iOS</strong> Phones (<strong>Apple</strong> iPhones)
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+
+                  <div class="switch">
+                    <label>
+
+                      <input checked type="checkbox">
+                      <span class="lever"></span>
+                      Create an App for <strong>iOS</strong> Tablets (<strong>Apple</strong> iPads)
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <div class="switch">
+                    <label>
+
+                      <input checked type="checkbox">
+                      <span class="lever"></span>
+                      Create an App for <strong>Android</strong> Phones
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <div class="switch">
+                    <label>
+                      <input checked type="checkbox">
+                      <span class="lever"></span>
+                      Create an App for <strong>Android</strong> Tablets
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <div class="switch">
+                    <label>
+
+                      <input type="checkbox">
+                      <span class="lever"></span>
+                      Create an App for <strong>Windows</strong> Phones
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <div class="switch">
+                    <label>
+                      <input type="checkbox">
+                      <span class="lever"></span>
+                      Create an App for <strong>Windows</strong> Tablets
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="input-field col s6">
+              <div class="row">
+                <div class="col s12 input-field">
+                  <label class="active" for="project_description">Project Template</label>
+
+                  <p>
+                    <input checked name="project_template" type="radio" id="t1"/>
+                    <label for="t1">Blank Project</label>
+                  </p>
+
+                  <p>
+                    <input name="project_template" type="radio" id="t2"/>
+                    <label for="t2">Content Based (like a book or magazine)</label>
+                  </p>
+
+                  <p>
+                    <input name="project_template" type="radio" id="t3"/>
+                    <label for="t3">Data driven</label>
+                  </p>
+
+                  <p>
+                    <input name="project_template" type="radio" id="t4"/>
+                    <label for="t4">Store Front (Ecommerce)</label>
+                  </p>
+
+                  <p>
+                    <input name="project_template" type="radio" id="t5"/>
+                    <label for="t5">Restaurant menu & ordering</label>
+                  </p>
+
+                  <p>
+                    <input disabled="disabled" name="project_template" type="radio" id="t6"/>
+                    <label for="t6">SAP Client<strong>(Available in Enterprise Edition Only)</strong></label>
+                  </p>
+
+                  <p>
+                    <input disabled="disabled" name="project_template" type="radio" id="t7"/>
+                    <label for="t7">ORACLE Client <strong>(Available in Enterprise Edition Only)</strong></label>
+                  </p>
+
+                  <p>
+                    <input disabled="disabled" name="project_template" type="radio" id="t8"/>
+                    <label for="t8">MS SQL Server Client <strong>(Available in Enterprise Edition
+                      Only)</strong></label>
+                  </p>
+
+                  <p>
+                    <input disabled="disabled" name="project_template" type="radio" id="t9"/>
+                    <label for="t9">SAP Asset Management Client <strong>(Available in Enterprise Edition
+                      Only)</strong></label>
+                  </p>
+
+                  <p>
+                    <input disabled="disabled" name="project_template" type="radio" id="t10"/>
+                    <label for="t10">SAP HR Client <strong>(Available in Enterprise Edition Only)</strong></label>
+                  </p>
+                  <input type="submit" class="hide">
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </form>
+      </div>
+    </div>
+    <div class="footer clearfix">
+      <div class="row">
+        <div class="col s6">
+          <p class="notice"><i class="material-icons prefix">info_outline</i>Don't worry you can change all of
+            this at any time later.</p>
+        </div>
+        <div class="col s6">
+          <a href="#" class="jsSubmit btn waves-effect waves-light right">Create Project</a>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</template>
