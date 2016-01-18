@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f75699ce-588b-41c7-8189-376ba459cc12" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/theme/client/scss/pages/dashboard.scss" afterPath="$PROJECT_DIR$/modules/theme/client/scss/pages/_dashboard.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/theme/client/views/login_template.html" afterPath="$PROJECT_DIR$/modules/theme/client/views/layouts/login_layout.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/theme/client/views/master_layout.html" afterPath="$PROJECT_DIR$/modules/theme/client/views/layouts/master_layout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/packages" afterPath="$PROJECT_DIR$/.meteor/packages" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/collections/projects/projects.js" afterPath="$PROJECT_DIR$/collections/projects/projects.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/collections/users.js" afterPath="$PROJECT_DIR$/collections/users.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/client/config/template_helpers.js" afterPath="$PROJECT_DIR$/lib/client/config/template_helpers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/dashboard/client/views/no_projects.html" afterPath="$PROJECT_DIR$/modules/dashboard/client/views/no_projects.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/dashboard/client/views/sub_nav.html" afterPath="$PROJECT_DIR$/modules/dashboard/client/views/sub_nav.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/dashboard/client/views/sub_nav.js" afterPath="$PROJECT_DIR$/modules/dashboard/client/views/sub_nav.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/dashboard/client/views/dashboard.js" afterPath="$PROJECT_DIR$/modules/dashboard/client/views/dashboard.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/dashboard/server/pubilcations.js" afterPath="$PROJECT_DIR$/modules/dashboard/server/pubilcations.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/theme/client/scss/components/_at_form.scss" afterPath="$PROJECT_DIR$/modules/theme/client/scss/components/_at_form.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/theme/client/scss/components/_base.scss" afterPath="$PROJECT_DIR$/modules/theme/client/scss/components/_base.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/theme/client/scss/includes/_variables.scss" afterPath="$PROJECT_DIR$/modules/theme/client/scss/includes/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/theme/client/scss/main.scss" afterPath="$PROJECT_DIR$/modules/theme/client/scss/main.scss" />
     </list>
     <ignored path="bootstrap-flow-router.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -78,10 +64,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new_project.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="new_project.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/projects/new_project/client/views/new_project.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10286156">
+            <state vertical-scroll-proportion="0.0">
               <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
               <folding>
                 <marker date="1452875631000" expanded="true" signature="452:487" placeholder="{...}" />
@@ -91,6 +77,26 @@
                 <marker date="1452875631000" expanded="true" signature="810:863" placeholder="{...}" />
                 <marker date="1452875631000" expanded="true" signature="887:955" placeholder="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pubilcations.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/dashboard/server/pubilcations.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashboard.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/dashboard/client/views/dashboard.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.11755607">
+              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -115,16 +121,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="modalLayout.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/theme/client/views/layouts/modalLayout.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.107143">
-              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="_appcha_modal.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/theme/client/scss/components/_appcha_modal.scss">
           <provider selected="true" editor-type-id="text-editor">
@@ -134,16 +130,6 @@
                 <marker date="1452795524000" expanded="true" signature="48:1400" placeholder="{...}" />
                 <marker date="1452795524000" expanded="true" signature="285:390" placeholder="{...}" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/dashboard/client/routes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -181,10 +167,8 @@
         <option value="$PROJECT_DIR$/modules/dashboard/client/views/project_card.html" />
         <option value="$PROJECT_DIR$/lib/client/config/at_config.js" />
         <option value="$PROJECT_DIR$/modules/dashboard/client/vars.js" />
-        <option value="$PROJECT_DIR$/modules/dashboard/client/views/dashboard.js" />
         <option value="$PROJECT_DIR$/modules/dashboard/client/views/dashboard.html" />
         <option value="$PROJECT_DIR$/modules/theme/client/scss/pages/dashboard.scss" />
-        <option value="$PROJECT_DIR$/modules/dashboard/server/pubilcations.js" />
         <option value="$PROJECT_DIR$/modules/projects/new_project/client/new_project.html" />
         <option value="$PROJECT_DIR$/modules/projects/new_project/client/router.js" />
         <option value="$PROJECT_DIR$/modules/dashboard/client/views/no_projects.html" />
@@ -207,6 +191,8 @@
         <option value="$PROJECT_DIR$/collections/users.js" />
         <option value="$PROJECT_DIR$/lib/client/config/template_helpers.js" />
         <option value="$PROJECT_DIR$/modules/projects/new_project/client/views/new_project.js" />
+        <option value="$PROJECT_DIR$/modules/dashboard/server/pubilcations.js" />
+        <option value="$PROJECT_DIR$/modules/dashboard/client/views/dashboard.js" />
       </list>
     </option>
   </component>
@@ -615,6 +601,10 @@
               <option name="myItemId" value="dashboard" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -635,6 +625,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap-flow-router" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appcha-just-do-it" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dashboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1062,22 +1078,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/dashboard/client/views/dashboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/dashboard/server/pubilcations.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/dashboard/client/views/dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.857142">
@@ -1300,7 +1300,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/projects/new_project/client/views/new_project.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10286156">
+        <state vertical-scroll-proportion="0.0">
           <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
           <folding>
             <marker date="1452875631000" expanded="true" signature="452:487" placeholder="{...}" />
@@ -1310,6 +1310,22 @@
             <marker date="1452875631000" expanded="true" signature="810:863" placeholder="{...}" />
             <marker date="1452875631000" expanded="true" signature="887:955" placeholder="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/dashboard/server/pubilcations.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/dashboard/client/views/dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11755607">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>

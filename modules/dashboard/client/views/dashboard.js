@@ -5,7 +5,8 @@ Template.dashboard.onRendered(function () {
 
 Template.dashboard.onCreated(function () {
 
-  Tracker.autorun(()=> {
+  Tracker.autorun((ctx)=> {
+    console.log(ctx)
     let option = DahboardVariables.get('project_filter');
     this.subscribe("dashboard_projects", option || 'recent')
   })
